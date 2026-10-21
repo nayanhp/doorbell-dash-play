@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#9FD37E" />
+    <title>Doorbell Dash</title>
+    <!-- CrazyGames HTML5 SDK v3. If it is blocked or we are hosted elsewhere, the game runs standalone. -->
+    <script src="https://sdk.crazygames.com/crazygames-sdk-v3.js"></script>
+    <script type="module" crossorigin src="./assets/index-DPUtWXQE.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-_Umv6SQj.css">
+  </head>
+  <body>
+    <div class="stage" id="stage">
+      <canvas id="cv" aria-label="Doorbell Dash map"></canvas>
+      <div class="hud" id="hud" hidden>
+        <div class="col">
+          <span class="chip big" id="clock"
+            ><span data-icon="clock"></span> <span id="clock-t">0:00.0</span></span
+          >
+          <span class="chip" id="left"></span>
+          <span class="chip small goal" id="goal" hidden></span>
+        </div>
+        <div class="col right">
+          <span class="chip small" id="mode"></span>
+          <span class="chip" id="place" hidden></span>
+        </div>
+      </div>
+      <div class="hint" id="hint" hidden></div>
+      <div class="over" id="over" hidden></div>
+    </div>
+  </body>
+</html>
